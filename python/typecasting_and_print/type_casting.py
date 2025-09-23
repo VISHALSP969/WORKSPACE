@@ -1,0 +1,35 @@
+# int()
+print(int(3.5))
+print(int(-3.9))
+print(int("42"))
+print(int("100"))
+print(int("42\n"))
+print(int("ff",16))
+print(int(3.14))
+# print(int("3.14"))    # ValueError
+# print(int("hello"))   # ValueError
+print(int(True))
+print(int(False))
+print(int("0b101",0))
+
+# float()
+print(float("3.14"))
+print(float("1e-3"))
+print(float("inf"))
+print(float("nan"))
+print(float(10))
+
+# str(x)
+print(str(123))
+print(str([1,2,3]))
+b=b'\xe0\xa4\xa8'
+print(b.decode("utf-8"))
+
+# bool(x)
+print(bool(1))
+print(bool(-1))
+print(bool(0))
+print(bool("23"))
+print(bool(""))
+print(bool(None))
+print(bool(3.14))
