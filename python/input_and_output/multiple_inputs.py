@@ -1,0 +1,11 @@
+a,b=input("Enter two numbers : ").split()
+a=int(a)
+b=int(b)
+print(a)
+print(b)
+print("Sum =",a+b)
+
+x,y=map(int,input("Enter two numbers : ").split())
+print(x,y)
+print(type(x),type(y))
+print("Product =",x*y)
